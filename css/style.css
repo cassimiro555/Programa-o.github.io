@@ -190,13 +190,6 @@ footer {
   }
 }
 
-/* Celulares */
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-  }
 
   .hero h1 {
     font-size: 2.2rem;
@@ -219,7 +212,7 @@ footer {
     width: 100%;
     text-align: center;
   }
-}
+
 
 /* Celulares pequenos */
 @media (max-width: 480px) {
@@ -233,5 +226,27 @@ footer {
 
   .menu a {
     font-size: 0.95rem;
+  }
+}
+
+/* MENU MOBILE EM GRID */
+@media (max-width: 768px) {
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    text-align: center;
+    padding: 14px;
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+    padding: 8px 6px;
+    border-radius: 10px;
+    background: rgba(56, 189, 248, 0.08);
+  }
+
+  .menu a::after {
+    display: none;
   }
 }
