@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 1 | Curso de Programação</title>
+  <meta name="description" content="Curso completo de programação - Aula 1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="menu">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="privacidade.html">Privacidade</a>
+    <a href="termos.html">Termos</a>
+  </nav>
+</header>
+
+<main>
+  <article class="card">
+
+<h1>🌐 Aula 4 — HTML Básico</h1>
+    <p>
+      Nesta aula, você aprenderá em detalhes o que é HTML, como ele funciona,
+      sua estrutura básica, principais tags, semântica, boas práticas e como
+      usar HTML para melhorar o SEO de um site.
+    </p>
+  </header>
+
+  <main>
+
+    <!-- O QUE É HTML -->
+    <section>
+      <h2>📌 O que é HTML?</h2>
+      <p>
+        HTML significa <strong>HyperText Markup Language</strong> (Linguagem de Marcação de Hipertexto).
+        Ele é a linguagem responsável por <strong>estruturar o conteúdo da web</strong>.
+      </p>
+
+      <p>
+        Com HTML, é possível organizar textos, imagens, links, vídeos, formulários
+        e vários outros elementos que aparecem em uma página da internet.
+      </p>
+
+      <p>
+        É importante entender que o HTML <strong>não é uma linguagem de programação</strong>,
+        pois ele não possui lógica, condições ou repetições. Ele apenas descreve
+        o conteúdo para o navegador.
+      </p>
+    </section>
+
+    <!-- ESTRUTURA -->
+    <section>
+      <h2>🏗️ Estrutura Básica de um Documento HTML</h2>
+
+      <p>
+        Todo arquivo HTML segue uma estrutura padrão. Essa estrutura ajuda o navegador
+        a entender corretamente o conteúdo da página.
+      </p>
+
+      <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Conteúdo visível da página
+  &lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+
+      <ul>
+        <li><strong>&lt;!DOCTYPE html&gt;</strong>: informa que o documento usa HTML5</li>
+        <li><strong>&lt;html&gt;</strong>: elemento raiz de toda a página</li>
+        <li><strong>&lt;head&gt;</strong>: contém informações para o navegador e mecanismos de busca</li>
+        <li><strong>&lt;body&gt;</strong>: contém tudo que o usuário vê na página</li>
+      </ul>
+    </section>
+
+    <!-- TAGS -->
+    <section>
+      <h2>🏷️ Tags Principais do HTML</h2>
+
+      <h3>📄 Tags de Texto</h3>
+      <p>
+        As tags de texto são usadas para estruturar e dar significado ao conteúdo textual.
+      </p>
+
+      <ul>
+        <li><strong>&lt;h1&gt; a &lt;h6&gt;</strong>: títulos hierárquicos (do mais importante ao menos importante)</li>
+        <li><strong>&lt;p&gt;</strong>: parágrafo de texto</li>
+        <li><strong>&lt;strong&gt;</strong>: destaca texto importante</li>
+        <li><strong>&lt;em&gt;</strong>: dá ênfase ao texto</li>
+      </ul>
+
+      <h3>🔗 Links</h3>
+      <p>
+        Links permitem a navegação entre páginas e sites.
+      </p>
+
+      <pre>
+&lt;a href="https://exemplo.com"&gt;Visitar site&lt;/a&gt;
+      </pre>
+
+      <h3>🖼️ Imagens</h3>
+      <pre>
+&lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+      </pre>
+
+      <p>
+        O atributo <strong>alt</strong> é fundamental para acessibilidade e SEO.
+      </p>
+    </section>
+
+    <!-- SEMANTICA -->
+    <section>
+      <h2>🧠 HTML Semântico</h2>
+
+      <p>
+        HTML semântico utiliza tags que descrevem claramente o papel do conteúdo.
+        Isso ajuda leitores de tela, mecanismos de busca e outros desenvolvedores.
+      </p>
+
+      <ul>
+        <li><strong>&lt;header&gt;</strong>: cabeçalho da página ou seção</li>
+        <li><strong>&lt;nav&gt;</strong>: área de navegação</li>
+        <li><strong>&lt;main&gt;</strong>: conteúdo principal</li>
+        <li><strong>&lt;section&gt;</strong>: seção temática</li>
+        <li><strong>&lt;article&gt;</strong>: conteúdo independente</li>
+        <li><strong>&lt;footer&gt;</strong>: rodapé</li>
+      </ul>
+    </section>
+
+    <!-- BOAS PRATICAS -->
+    <section>
+      <h2>✅ Boas Práticas em HTML</h2>
+      <ul>
+        <li>Manter o código organizado e indentado</li>
+        <li>Usar HTML semântico ao invés de muitas divs</li>
+        <li>Utilizar apenas um &lt;h1&gt; por página</li>
+        <li>Adicionar texto alternativo em todas as imagens</li>
+        <li>Evitar códigos duplicados</li>
+      </ul>
+    </section>
+
+    <!-- SEO -->
+    <section>
+      <h2>🔍 SEO com HTML</h2>
+
+      <p>
+        SEO (Search Engine Optimization) são práticas que ajudam seu site a aparecer
+        melhor nos resultados dos mecanismos de busca.
+      </p>
+
+      <ul>
+        <li>Usar títulos claros e bem estruturados</li>
+        <li>Preencher corretamente as meta tags</li>
+        <li>Usar textos relevantes e originais</li>
+        <li>Utilizar HTML semântico</li>
+        <li>Melhorar acessibilidade</li>
+      </ul>
+    </section>
+
+    <!-- CONCLUSAO -->
+    <section>
+      <h2>🚀 Conclusão</h2>
+      <p>
+        HTML é a base de qualquer site ou aplicação web. Um bom HTML torna o site
+        mais organizado, acessível e otimizado para buscadores.
+      </p>
+      <p>
+        Dominar HTML é essencial para qualquer pessoa que deseja entrar no mundo
+        do desenvolvimento web.
+      </p>
+      
+<div style="margin-top: 50px; text-align: center;">
+  <a href="aulas.html" class="back-btn">⬅ Voltar</a>
+</div>
+
+  </article>
+</main>
+
+<footer>
+  <p>© 2026 Curso de Programação</p>
+</footer>
+
+</body>
+</html>
