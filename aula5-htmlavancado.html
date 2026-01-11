@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 1 | Curso de Programação</title>
+  <meta name="description" content="Curso completo de programação - Aula 1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="menu">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="privacidade.html">Privacidade</a>
+    <a href="termos.html">Termos</a>
+  </nav>
+</header>
+
+<main>
+  <article class="card">
+
+<h1>🌐 Aula 5 — HTML Avançado</h1>
+    <p>
+      Nesta aula, você terá uma visão <strong>completa e aprofundada</strong> dos
+      principais recursos avançados do HTML. O foco será na criação de formulários
+      profissionais, acessíveis, seguros e otimizados para mecanismos de busca,
+      utilizando os padrões mais modernos do HTML5.
+    </p>
+  </header>
+
+  <main>
+
+    <!-- FORMS -->
+    <section>
+      <h2>📝 Formulários (Forms)</h2>
+      <p>
+        Formulários são um dos elementos mais importantes da web moderna. Eles
+        permitem a <strong>interação direta entre usuários e sistemas</strong>,
+        sendo utilizados em cadastros, logins, comentários, pesquisas, pagamentos
+        e envio de mensagens.
+      </p>
+
+      <p>
+        A tag <strong>&lt;form&gt;</strong> é o contêiner principal do formulário.
+        Ela define como e para onde os dados serão enviados.
+      </p>
+
+      <pre>
+&lt;form action="processar-dados.php" method="post"&gt;
+  &lt;!-- Campos do formulário --&gt;
+&lt;/form&gt;
+      </pre>
+
+      <ul>
+        <li><strong>action</strong>: URL que receberá os dados</li>
+        <li><strong>method</strong>: forma de envio (GET ou POST)</li>
+        <li><strong>autocomplete</strong>: ativa ou desativa sugestões automáticas</li>
+        <li><strong>novalidate</strong>: desativa validação automática</li>
+      </ul>
+    </section>
+
+    <!-- INPUTS -->
+    <section>
+      <h2>⌨️ Inputs HTML5 (Campos de Entrada)</h2>
+      <p>
+        Inputs são responsáveis por capturar dados do usuário. O HTML5 trouxe
+        diversos tipos de inputs que facilitam a validação, melhoram a experiência
+        do usuário e reduzem erros.
+      </p>
+
+      <pre>
+&lt;input type="text" placeholder="Nome completo" required&gt;
+&lt;input type="email" placeholder="Email" required&gt;
+&lt;input type="password" minlength="8"&gt;
+&lt;input type="number" min="1" max="100"&gt;
+&lt;input type="date"&gt;
+&lt;input type="tel" pattern="[0-9]{11}"&gt;
+      </pre>
+
+      <p><strong>Atributos importantes:</strong></p>
+      <ul>
+        <li><strong>required</strong>: campo obrigatório</li>
+        <li><strong>placeholder</strong>: texto de dica</li>
+        <li><strong>min / max</strong>: limites de valores</li>
+        <li><strong>pattern</strong>: validação por expressão regular</li>
+        <li><strong>readonly / disabled</strong>: controle de edição</li>
+      </ul>
+    </section>
+
+    <!-- ACESSIBILIDADE -->
+    <section>
+      <h2>♿ Acessibilidade Web</h2>
+      <p>
+        Acessibilidade garante que pessoas com deficiências visuais, motoras,
+        auditivas ou cognitivas consigam utilizar o site com autonomia.
+      </p>
+
+      <p>
+        Um HTML acessível melhora não apenas a inclusão, mas também a usabilidade
+        geral e o SEO.
+      </p>
+
+      <ul>
+        <li>Uso correto de HTML semântico</li>
+        <li>Associação correta entre <strong>label</strong> e inputs</li>
+        <li>Texto alternativo descritivo em imagens</li>
+        <li>Hierarquia correta de títulos</li>
+        <li>Navegação completa via teclado</li>
+      </ul>
+
+      <pre>
+&lt;label for="nome"&gt;Nome completo&lt;/label&gt;
+&lt;input id="nome" type="text"&gt;
+      </pre>
+    </section>
+
+    <!-- SEO AVANCADO -->
+    <section>
+      <h2>🔍 SEO Avançado com HTML</h2>
+      <p>
+        SEO avançado envolve técnicas que ajudam mecanismos de busca a entender,
+        indexar e classificar melhor seu conteúdo.
+      </p>
+
+      <ul>
+        <li>Uso estratégico de headings</li>
+        <li>Conteúdo relevante e original</li>
+        <li>Meta tags completas e claras</li>
+        <li>Boa acessibilidade</li>
+        <li>Estrutura semântica correta</li>
+      </ul>
+
+      <pre>
+&lt;meta name="description" content="Descrição clara e objetiva da página"&gt;
+&lt;meta name="robots" content="index, follow"&gt;
+&lt;link rel="canonical" href="https://site.com/pagina"&gt;
+      </pre>
+    </section>
+
+    <!-- HTML5 MODERNO -->
+    <section>
+      <h2>🆕 HTML5 Moderno</h2>
+      <p>
+        O HTML5 trouxe recursos modernos que tornaram o desenvolvimento web mais
+        simples, rápido e poderoso, reduzindo a dependência de plugins externos.
+      </p>
+
+      <ul>
+        <li>Tags semânticas modernas</li>
+        <li>Validação nativa de formulários</li>
+        <li>Multimídia integrada</li>
+        <li>Melhor suporte a dispositivos móveis</li>
+      </ul>
+
+      <pre>
+&lt;video controls&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+      </pre>
+    </section>
+
+    <!-- CONCLUSAO -->
+    <section>
+      <h2>🚀 Conclusão</h2>
+      <p>
+        HTML avançado vai muito além de criar páginas bonitas. Ele envolve
+        acessibilidade, usabilidade, performance e SEO.
+      </p>
+      <p>
+        Ao dominar esses conceitos, você estará preparado para criar sites
+        profissionais, modernos e prontos para qualquer público.
+      </p>
+      
+<div style="margin-top: 50px; text-align: center;">
+  <a href="aulas.html" class="back-btn">⬅ Voltar</a>
+</div>
+
+  </article>
+</main>
+
+<footer>
+  <p>© 2026 Curso de Programação</p>
+</footer>
