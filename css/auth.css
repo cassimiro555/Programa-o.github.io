@@ -10,7 +10,7 @@ body {
 
 .auth-container {
   background: rgba(248,250,252,0.95);
-  padding: 36px;
+  padding: 50px;
   width: 100%;
   max-width: 360px;
   border-radius: 18px;
@@ -18,13 +18,13 @@ body {
 }
 
 .auth-container h1 {
-  margin-bottom: 24px;
+  margin-bottom: 26px;
   color: #020617;
 }
 
 .auth-container input {
-  width: 100%;
-  padding: 12px;
+  width: 90%;
+  padding: 9px;
   margin-bottom: 14px;
   border-radius: 10px;
   border: 1px solid #cbd5e1;
