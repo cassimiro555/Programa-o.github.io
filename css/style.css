@@ -245,7 +245,7 @@ footer {
 }
 
 /* MENU MOBILE EM GRID */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -293,9 +293,9 @@ footer {
 }
 
 /* Ajuste no celular */
-@media (max-width: 2048px) {
+@media (max-width: 768px) {
   .lesson-content {
-    padding: 60px 35px;
+    padding: 28px 18px;
   }
 }
 
@@ -305,7 +305,18 @@ footer {
   background: rgba(248, 250, 252, 0.96);
   color: #020617;
   border-radius: 18px;
-  padding: 25px;
+  padding: 32px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.35);
 }
 
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
