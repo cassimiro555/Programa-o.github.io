@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 6 | Curso de Programação</title>
+  <meta name="description" content="Curso completo de programação - Aula 1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="menu">
+    <a href="index.html">Início</a>
+    <a href="aulas.html">Aulas</a>
+  </nav>
+</header>
+
+<main class="lesson-content">
+  <article class="card">
+
+<h1>🎨 Aula 6 — CSS Básico</h1>
+    <p>
+      Nesta aula, você aprenderá de forma <strong>completa, detalhada e progressiva</strong>
+      os fundamentos do CSS, a linguagem responsável por transformar páginas HTML
+      simples em interfaces visuais modernas, organizadas e agradáveis ao usuário.
+    </p>
+
+  <main>
+
+
+    <section>
+      <h2>📌 O que é CSS?</h2>
+      <p>
+        CSS é a sigla para <strong>Cascading Style Sheets</strong> (Folhas de Estilo em Cascata).
+        Ele é a linguagem usada para <strong>definir a aparência visual</strong> de páginas web,
+        controlando cores, fontes, tamanhos, espaçamentos, posicionamentos e layouts.
+      </p>
+
+      <p>
+        Enquanto o HTML define a <em>estrutura</em> do conteúdo (títulos, parágrafos,
+        listas, imagens), o CSS cuida da <em>apresentação</em>, ou seja, de como esses
+        elementos serão exibidos na tela.
+      </p>
+
+      <p>
+        O termo <strong>"cascata"</strong> significa que o navegador segue uma ordem
+        de prioridade para aplicar os estilos, resolvendo conflitos entre regras
+        diferentes.
+      </p>
+    </section>
+
+    <!-- CORES -->
+    <section>
+      <h2>🎨 Cores no CSS</h2>
+      <p>
+        As cores são fundamentais para a identidade visual de um site. Elas ajudam
+        a transmitir emoções, destacar informações importantes e melhorar a
+        experiência do usuário.
+      </p>
+
+      <p>
+        O CSS oferece várias formas de definir cores, permitindo flexibilidade
+        total no design:
+      </p>
+
+      <ul>
+        <li><strong>Nomes de cores</strong>: simples e diretos (ex: <code>red</code>, <code>blue</code>)</li>
+        <li><strong>Hexadecimal</strong>: padrão mais usado na web (ex: <code>#1e3a8a</code>)</li>
+        <li><strong>RGB</strong>: mistura de vermelho, verde e azul</li>
+        <li><strong>RGBA</strong>: RGB com transparência</li>
+        <li><strong>HSL</strong>: matiz, saturação e luminosidade</li>
+      </ul>
+
+      <p class="destaque">
+        Uma boa escolha de cores melhora a leitura e torna o site mais profissional.
+      </p>
+    </section>
+
+    <!-- FONTES -->
+    <section>
+      <h2>🔤 Fontes no CSS</h2>
+      <p>
+        Fontes são responsáveis pela legibilidade e pelo estilo do texto. Uma fonte
+        bem escolhida torna o conteúdo mais confortável de ler e mais agradável
+        visualmente.
+      </p>
+
+      <p>
+        Propriedades principais para trabalhar com fontes:
+      </p>
+
+      <ul>
+        <li><strong>font-family</strong>: define a fonte principal e alternativas</li>
+        <li><strong>font-size</strong>: controla o tamanho do texto</li>
+        <li><strong>font-weight</strong>: define o peso (normal, negrito)</li>
+        <li><strong>line-height</strong>: espaçamento entre linhas</li>
+        <li><strong>text-align</strong>: alinhamento do texto</li>
+      </ul>
+
+      <p>
+        É recomendado usar fontes legíveis e manter consistência em todo o site.
+      </p>
+    </section>
+
+    <!-- BOX MODEL -->
+    <section>
+      <h2>📦 Box Model</h2>
+      <p>
+        No CSS, todo elemento HTML é representado como uma <strong>caixa</strong>.
+        O Box Model define como essa caixa é estruturada e como ocupa espaço na tela.
+      </p>
+
+      <p>
+        O Box Model é composto por quatro partes:
+      </p>
+
+      <ul>
+        <li><strong>Content</strong>: conteúdo real do elemento</li>
+        <li><strong>Padding</strong>: espaço interno entre o conteúdo e a borda</li>
+        <li><strong>Border</strong>: linha que envolve o elemento</li>
+        <li><strong>Margin</strong>: espaço externo entre elementos</li>
+      </ul>
+
+      <div id="box-model-exemplo">
+        Este bloco demonstra visualmente como funciona o Box Model no CSS.
+      </div>
+
+      <p>
+        Entender o Box Model é essencial para criar layouts organizados e evitar
+        problemas de espaçamento.
+      </p>
+    </section>
+
+    <!-- CLASSES E IDS -->
+    <section>
+      <h2>🆔 Classes e IDs</h2>
+      <p>
+        Classes e IDs são usados para selecionar elementos HTML e aplicar estilos
+        específicos com CSS.
+      </p>
+
+      <p>
+        <strong>Classes</strong> são reutilizáveis e podem ser aplicadas a vários
+        elementos ao mesmo tempo.
+      </p>
+
+      <p>
+        <strong>IDs</strong> são únicos e devem ser usados apenas uma vez por página,
+        normalmente para elementos específicos.
+      </p>
+
+      <pre>
+&lt;p class="destaque"&gt;Texto destacado&lt;/p&gt;
+&lt;div id="box-model-exemplo"&gt;Exemplo de ID&lt;/div&gt;
+      </pre>
+
+      <p>
+        Utilizar corretamente classes e IDs ajuda a manter o código organizado,
+        limpo e fácil de manter.
+      </p>
+    </section>
+
+    <!-- CONCLUSAO -->
+    <section>
+      <h2>🚀 Conclusão</h2>
+      <p>
+        O CSS é uma das tecnologias mais importantes do desenvolvimento web. Ele
+        permite criar interfaces bonitas, responsivas e profissionais.
+      </p>
+
+      <p>
+        Compreender cores, fontes, Box Model e seletores é a base para avançar
+        para layouts mais complexos e modernos.
+      </p>
+
+      <p>
+        Dominar CSS não é apenas decorar propriedades, mas entender como o navegador
+        interpreta e aplica os estilos.
+      </p>
+      
+<div style="margin-top: 50px; text-align: center;">
+  <a href="aulas.html" class="back-btn">⬅ Voltar</a>
+</div>
+
+  </article>
+</main>
+
+<footer>
+  <p>© 2026 Curso de Programação</p>
+</footer>
