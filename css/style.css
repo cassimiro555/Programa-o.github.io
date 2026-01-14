@@ -245,7 +245,7 @@ footer {
 }
 
 /* MENU MOBILE EM GRID */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
