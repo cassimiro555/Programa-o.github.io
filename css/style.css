@@ -295,7 +295,7 @@ footer {
 /* Ajuste no celular */
 @media (max-width: 1024px) {
   .lesson-content {
-    padding: 32px 18px;
+    padding: 45px 18px;
   }
 }
 
